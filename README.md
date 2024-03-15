@@ -1,7 +1,6 @@
 # IMdb-Clone<br>
 I have created imdb clone using html , css and javascript.<br>
 I have used OMDB api.<br>
-<br>
 Features :- <br>
 1) Home Page:-<br>
 Search any movie from the API and display the search results on the frontend (as I type the search results should update.<br>
