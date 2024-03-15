@@ -8,10 +8,10 @@ Search any movie from the API and display the search results on the frontend (as
 Each search result of the movie have an add to favourite button, clicking on which the movie should be added to “My favourites”.<br>
 Also there is more button to open a new page with more information about that movie (movie page).<br>
 <br>
-2) Movie Page:-<br>
+2. Movie Page:-<br>
 Information about the movie like its name, photo, plot, etc.<br>
 <br>
-3) My favourite movies Page:-<br>
+3. My favourite movies Page:-<br>
 List of all the favourite movie (persistent).<br>
 Remove from favourites button: Clicking on which that movie get removed from the list.
 
