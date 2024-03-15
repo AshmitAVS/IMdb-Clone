@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+body{
+    background-color: bisque;
+}
+#navigation{
+    width: 100vw;
+    background-color: rgb(60, 58, 58);
+    height: 10vh;
+    justify-content: space-around;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#homepage{
+    margin: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+#favpage{
+    margin: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+.moviecard{
+    border: 1px solid black;
+    display: flex;
+    /* flex-wrap: wrap-reverse; */
+    height: 450px;
+    width: 300px;
+    position: absolute;
+    left: 20px;
+    gap: 30px;
+    align-items: center;
+    align-content: center;
+}
