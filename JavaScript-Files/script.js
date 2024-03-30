@@ -58,9 +58,10 @@ function addToFavourite(movieID, data) {
     console.log(search);
     if(search===undefined){
         favMovieList.push(selectedMovie);
+        alert("Added to favourite");
         document.querySelector(`[imdbid="${movieID}"]`).textContent="Added To Favourite";
         document.querySelector(`[imdbid="${movieID}"]`).style.backgroundColor="green";
-        alert("Added to favourite");
+        
     }
     else{
         
