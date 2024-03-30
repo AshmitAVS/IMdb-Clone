@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#navbar{
+    background-color:darkorange;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+#navbar a{
+    position: absolute;
+    left: 20px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+#navbar a i{
+    color: purple;
+    margin-right: 5px;
+    font-size: xx-large;
+}
+
+#fav-movie-lists-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+}
+
+.favmovieListDetails{
+    margin-top: 30px;
+    border: 2px solid black;
+}
+
+.favmovieListDetails p{
+    color: blue;
+    font-size: large;
+    margin: 5px;
+}
+
+.remove-fav{
+    background-color: coral;
+    color: beige;
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
